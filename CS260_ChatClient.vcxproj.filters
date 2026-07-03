@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libraries">
+      <UniqueIdentifier>{bc9e675d-7014-4fbc-b55e-377118d4f444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{0c134390-cbc1-47cc-aacb-b558f3371495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Components">
+      <UniqueIdentifier>{03580291-4cc2-422f-8261-4d7e526eeb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Screens">
+      <UniqueIdentifier>{97634aa6-d7e3-4908-b60c-6988dc963177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{7a8be635-25f7-483c-9e44-05255378012e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CS260_ChatClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChatRoom.cpp">
+      <Filter>Source Files\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NewConnection.cpp">
+      <Filter>Source Files\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConnectionManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Socket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\raymath.h">
+      <Filter>Source Files\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sha256.h">
+      <Filter>Source Files\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Button.h">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ErrorAlert.h">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextInput.h">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChatRoom.h">
+      <Filter>Source Files\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NewConnection.h">
+      <Filter>Source Files\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base.h">
+      <Filter>Source Files\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConnectionManager.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Socket.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\color.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

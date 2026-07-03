@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.aps
+
+# JetBrains, etc
+.idea/
+.cache/
+.idea/
+.vscode/
+
+# Build output
+build/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+
+# NuGet packages (restored on build)
+packages/
+
+# Compiled files
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.a
